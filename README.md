@@ -1,5 +1,6 @@
 # SFDC-Quota-Management
 SFDC Unmanaged Package for quota management.
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000G6Zl&isdtp=p1
 
 
 I put this package together for myself with the simple goal of being able to easily set quotas and compare against *ARR* as opposed of *Amount* on Opportunities. 
