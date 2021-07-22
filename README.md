@@ -1,4 +1,4 @@
-# SFDC-Quota-Managent
+# SFDC-Quota-Management
 SFDC Unmanaged Package for quota management.
 
 
