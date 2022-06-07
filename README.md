@@ -1,6 +1,6 @@
 # SFDC-Quota-Management
 SFDC Unmanaged Package for quota management.
-https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000G6iB
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5e0000004QoK&isdtp=p1
 
 
 I put this package together for myself with the simple goal of being able to easily set quotas and compare against *ARR* as opposed of *Amount* on Opportunities. 
@@ -15,7 +15,7 @@ What's Included:
                           Sales Quotas with or without Opportunities
   Example Report:     Quarterly Quota Attainment
   
-  Flow:               Associate Opportunity with Quota (Deactivated)
+  Flows:               Associate Opportunity with Quota (Deactivated)
                       Quota Creation	
   
 Setup steps:
