@@ -12,10 +12,10 @@ What's Included:
                       Related to Opportunities & Users
                   
   Custom Report Type: Quota Attainment
-                          Sales Quotas with or without Opportunities
+                      Sales Quotas with or without Opportunities
   Example Report:     Quarterly Quota Attainment
   
-  Flows:               Associate Opportunity with Quota (Deactivated)
+  Flows:              Associate Opportunity with Quota (Deactivated)
                       Quota Creation	
   
 Setup steps:
@@ -37,3 +37,6 @@ Once you have your quota records created, turn on the included flow, from then o
 
 Update: 11/15/2022
 As of Version 1.7 a field has been added to the Sales Quota object to track months carrying quota. Internally I set this when i create quotas from the screen flow but it gets trickier in this package since quotas can be quarterly or annual not just monthly. THere is a field on the user for the month they started carrying a quota. If you wish to use this feature set that field to the last day of the first month the rep will be carrying a quota (even if it's a $0 ramp quota). This can be useful for tracking ramp times across reps starting in different months. I also updated the flow that associates opportunities with quotas to auto-create a quota if none is found based on the users quota amount (stored on the user record when the screen flow is run).
+
+NON STANDARD QUOTA PERIODS:
+As of V 1.9 all screen flow logic has been comsolodated into a single path. If you need to measure quotas on a period that is not pre-configured (for example 2 or 3 times a year) simply add an option for it in the screen where you choose quota period and edit the EndDate formula to add in your picklist value and how many months it should represent and you're good to go!
